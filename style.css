@@ -1,0 +1,7 @@
+body { font-family: helvetica,arial,sans-serif; font-size: 12pt; background-color: aqua; color: black }
+header { font-size: 18pt; font-weight: bold; text-align: center; background-color: black; color: white; height: 100px }
+#me { width: 100px; height: 100px; float: left }
+#social-networks { text-align: center }
+#social-networks li { list-style-type: none; display: inline; padding: 50px }
+#social-networks img { height: 50px; width: 50px }
+footer { font-size: 8pt; text-align: center }
