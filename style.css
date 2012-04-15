@@ -1,7 +1,68 @@
-body { font-family: helvetica,arial,sans-serif; font-size: 12pt; background-color: aqua; color: black }
-header { font-size: 18pt; font-weight: bold; text-align: center; background-color: black; color: white; height: 100px }
-#me { width: 100px; height: 100px; float: left }
-#social-networks { text-align: center }
-#social-networks li { list-style-type: none; display: inline; padding: 50px }
-#social-networks img { height: 50px; width: 50px }
-footer { font-size: 8pt; text-align: center }
+body { 
+	padding:50px 100px; /* Whitespace looks 'classy' */
+	font: 14px/1.6 "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #2C2C2C;
+}
+
+/* The wrapper makes the page look more like a 'document' when the page is wide.
+	This makes it easier on the eye to scan lines.
+ */
+
+.wrapper{
+	max-width:960px;
+	margin:0 auto;
+}
+
+header {
+	margin-bottom:50px;
+}
+
+header h1{
+	color:#08C; /* Blue colour, kind of like the blue of the sky when the sun is setting */
+	font-weight:normal;
+	letter-spacing:-1px;
+	font-size:5em;
+	font-weight:100; /* This makes the font appear slightly thinner than normal. This gives the font a more 'magazine' classy look */
+}
+
+.summary{
+	font-size:1.8em;
+	overflow: hidden;
+}
+
+p{
+	font-size:1.2em;
+	font-weight: 300; /* This makes the font appear slightly thinner */
+}
+
+a{
+	color:#08C;
+}
+
+#me {
+	width: 100px;
+	margin-right:20px;
+	margin-bottom:20px;
+	float: left;
+}
+
+#social-networks {
+	text-align: left
+}
+
+#social-networks li {
+	list-style-type: none;
+	display: inline;
+	padding: 50px
+}
+
+#social-networks img {
+	width: 80px;
+}
+
+footer {
+	margin-top:50px; /* Give the footer space to breathe */
+	border-top:1px solid #ccc; /* light grey border atop of the footer */
+	font-size: 0.8em;
+	color:#666; /* Slightly lighter than black */
+}
