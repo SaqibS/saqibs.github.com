@@ -1,0 +1,15 @@
+{
+  "applinks": {
+      "details": [
+           {
+             "appIDs": [ "TODO.com.microsoft.seeingaidev" ],
+             "components": [
+               {
+                  "/": "/routes/*",
+                  "?": { "routeID": "????????????????????????????????" }
+               }
+             ]
+           }
+       ]
+   }
+}
