@@ -1,0 +1,12 @@
+title: Saqib Shaikh
+email: me@saqibshaikh.com
+description: >-
+  Founder & Lead of Microsoft Seeing AI, working to build a more inclusive world for all
+baseurl: ""
+url: "https://saqibshaikh.com"
+twitter_username: saqibs
+github_username: saqibs
+
+theme: minima
+plugins:
+  - jekyll-feed
